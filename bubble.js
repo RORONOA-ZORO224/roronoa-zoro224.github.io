@@ -27,7 +27,7 @@
   if(confirm('Download resume?')){
     const link = document.createElement('a');
     link.href = 'Assets/GAWTAM-Resume.pdf';
-    link.download = 'GAWTAM-2.pdf'; 
+    link.download = 'GAWTAM-Resume.pdf'; 
     link.click();
   }
 }
